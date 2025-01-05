@@ -1,0 +1,140 @@
+<apex:page standardController="Avenimiento__c" renderAs="pdf" applyBodyTag="false">
+    <head>    
+        <style type="text/css">    
+            .texto-con-entrelineado {
+            line-height: 0.33in; /* Establece el entrelineado en 0.32 para texto */
+            }
+            .h1 {
+            text-align: center;
+            }
+            .texto-entrelineado {
+            line-height: 0.20in; /* Establece el entrelineado en 0.40 pulgadas para titulo inicial */
+            }
+            .texto-firmas {
+            line-height: 0.65in; /* Establece el entrelineado en 0.45 pulgadas para las firmas */
+            }
+            .dentado { 
+            text-indent: 7em; /* Establece dentado para los parrafos*/
+            }
+        </style>        
+        <div style="border: 25px; padding: 30px; text-align: left;">    
+            <p><b><u>EN LO PRINCIPAL</u></b>: Avenimiento, solicitando aprobación del Tribunal.</p>
+            <p><b><u>EN EL PRIMER OTROSI</u>:</b>Autorización.</p>
+            <p><b><u> EN EL SEGUNDO OTROSI</u>:</b>Copias autorizadas y devolución de documentos</p>
+        </div>
+        <div class="texto-entrelineado">
+            <div style="text-align: center;">        
+                <p> S. J. L. EN LO CIVIL 26º JUZGADO CIVIL DE SANTIAGO</p>
+            </div>
+        </div>  
+    </head>
+    <body>
+        <div class="texto-con-entrelineado">
+            <div style="border: 19px; padding: 40px; text-align: justify;">
+                <p class="dentado">MOBAREC KATUNARIC JUAN PABLO, mandatario judicial, por el ejecutante, Banco 
+                    del Estado de Chile, asistido por su abogado patrocinante y apoderado en autos don(a)
+                    MOBAREC KATUNARIC JUAN PABLO, ambos con domicilio en San Diego 81, piso 5 comuna 
+                    de Santiago, y por la otra parte, don CARO VERA MARCIA ANDREA, DOCENTE, cédula de 
+                    identidad N° 12.799.587-7, con domicilio en AVENIDA CIRCUNVALACION #2022, MELIPILLA, 
+                    en los autos sobre juicio ejecutivo caratulados "Banco del Estado de Chile con CARO VERA 
+                    MARCIA ANDREA, Rol Nº 14280-2022, a SS. Respetuosamente decimos:</p>
+                
+                <p class="dentado"> Que las partes actuando de consuno, hacemos presente a SS. el
+                    siguiente avenimiento relativo a las acciones y derechos ejercidos en el presente juicio,
+                    poniendo término al presente litigio y estableciendo una forma de pago de la obligación
+                    cobrada en estos autos, para lo cual sometemos a la aprobación de SS el referido
+                    avenimiento que consta de los siguientes términos:</p>
+                
+                <p><b>PRIMERO: Antecedentes. Uno)</b> Para todos los efectos legales, las partes dejan constancia
+                    que los créditos cobrados en el presente juicio, documentados en el pagaré acompañado
+                    como título ejecutivo a la demanda de autos, fueron otorgados al ejecutado don CARO
+                    VERA MARCIA ANDREA por el Banco del Estado de Chile al amparo del Sistema de
+                    Financiamiento para Estudiantes de Educación Superior, con Garantía del Estado y
+                    Garantía por Deserción Académica, establecido por la <b>Ley Nº 20.027</b>, publicada en el
+                    Diario Oficial de fecha 11 de junio de 2005, su Reglamento, contenido en el Decreto
+                    Supremo Nº 182, del Ministerio de Educación, de fecha 7 de septiembre de 2005, publicado
+                    en el Diario Oficial de fecha 28 de enero de 2006 y sus respectivas modificaciones y las
+                    respectivas Bases de Licitación del Servicio de Financiamiento y Administración de
+                    Créditos para Estudios Superiores, establecidas mediante resolución dictada por la
+                    Comisión Administradora del Sistema de Créditos para Estudios Superiores (también
+                    denominada, Comisión Ingresa). <b>Dos)</b>Respecto de estas últimas Bases de Licitación, las
+                    partes reconocen y manifiestan expresamente la vigencia y validez de la documentación
+                    anexa a dichas Bases Administrativas y Técnicas de Licitación y que fuera suscrita por el
+                    ejecutado don CARO VERA MARCIA ANDREA ante el Banco del Estado de Chile, en el marco
+                    de la postulación, asignación y otorgamiento de los beneficios referidos en la normativa
+                    antes referida y que se materializa y perfecciona a través del financiamiento otorgado por
+                    las Instituciones Financieras que como la demandante resultan adjudicatarias de las
+                    referidas licitaciones, para el financiamiento y/o administración de los créditos que
+                    fueran otorgados al Deudor(a) Beneficiario(a).</p>
+                
+                <p><b>SEGUNDO: Reconocimiento de deuda.</b> El ejecutado, ya individualizado, reconoce sin
+                    reserva alguna, adeudar al Banco del Estado de Chile, el cual a su vez acepta y reconoce,
+                    el crédito cobrado en el juicio especificado en la cláusula anterior, en las condiciones,
+                    montos y términos contenidos en la demanda ejecutiva presentada en la referida causa
+                    judicial, con la deducción y descuento del pago efectuado por el mismo ejecutado por
+                    concepto de: Operación 17020878, <b>Uno)</b> Capital $150084; Intereses $101020; Comisiones
+                    $43337; Reajustes $53657; <b>Dos)</b>Costas procesales y personales ascendentes a la suma de
+                    $34810. En consecuencia, el ejecutado ya individualizado, reconoce adeudar al Banco del
+                    Estado de Chile, sin reserva alguna, la cantidad ascendente al día 06/02/2023, la cantidad
+                    de capital equivalente en moneda nacional de 185,7164 unidades de fomento.</p>
+                
+                <p><b>TERCERO: Condiciones de pago.</b> El ejecutado, ya individualizado, se obliga a pagar al
+                    Banco del Estado de Chile la cantidad referida en la cláusula precedente, debidamente
+                    reajustada en conformidad a la variación de la unidad de fomento hasta el día del pago
+                    efectivo, con un interés del 2% anual y una comisión de administración del crédito que
+                    asciende a la suma de 0,12 unidades de fomento mensuales, mediante 160 cuotas
+                    mensuales y sucesivas, con vencimiento los días 10 de cada mes, la primera al día
+                    10/03/2023 y la última al día 10/06/2036, de la cuota 81 a la 120 cada una por la cantidad
+                    equivalente en moneda nacional de 0,9639 unidades de fomento, de la cuota 121 a la 180
+                    cada una por la cantidad equivalente en moneda nacional de 1,4459 unidades de fomento,
+                    de la cuota 181 a la 239 cada una por la cantidad equivalente en moneda nacional de
+                    1,6869 unidades de fomento, con excepción de la última cuota 240, que será por la
+                    cantidad equivalente de 1,6732 unidades de fomento.</p>
+                
+                <p><b>CUARTO: Interés penal.</b> La mora o el simple retardo en el pago de una cualquiera o más
+                    de las cuotas referidas en el número precedente, dará lugar a que esta obligación
+                    devengue, a contar de la mora y hasta el día del pago efectivo, a título de interés penal,
+                    el máximo que la ley permita estipular para operaciones reajustables. Además, el no pago
+                    íntegro y oportuno de cualquiera de las cuotas, dará derecho a Banco del Estado de Chile
+                    para declarar vencido e inmediatamente exigible el saldo total adeudado.</p>
+                
+                <p><b>QUINTO: Forma de efectuar el pago.</b> Los pagos se deberán efectuar por el ejecutado en
+                    cualquiera de las Oficinas del Banco del Estado de Chile.</p>
+                
+                <p><b>SEXTO: Título ejecutivo.</b> Las partes dejan constancia de que copias del presente
+                    avenimiento, con la resolución del Tribunal que lo declare aprobado, autorizadas por la
+                    Secretaría del Tribunal, constituirán el único título ejecutivo en que se documenta la
+                    obligación cobrada en estos autos, reconocida por el ejecutado al Banco del Estado de
+                    Chile en el número segundo precedente de este Avenimiento, en conformidad a lo
+                    dispuesto en el Nº 3 del artículo 434 del Código de Procedimiento Civil.</p>
+                
+                <p><b>SÉPTIMO: Alzamiento Medidas de Apremio.</b> Las partes dejan expresa constancia que una
+                    vez aprobado el presente avenimiento por resolución del Tribunal, la Institución
+                    Financiera compareciente deberá solicitar la extinción o alzamiento de cualquier medida
+                    de apremio, judicial y/o extrajudicial que se encuentre vigente o que haya sido decretada
+                    en contra del deudor ejecutado.</p>
+                
+                
+                <p class="dentado"><b>POR TANTO,</b></p>
+                
+                <p class="dentado"><b>SÍRVASE SS.:</b> Tener presente y otorgar su aprobación al avenimiento
+                    especificado.</p>
+                
+                <p><b><u>PRIMER OTROSI:</u> SÍRVASE SS.,</b> autorizar la comparecencia personal del ejecutado, don
+                    CARO VERA MARCIA ANDREA, por esta única gestión de avenimiento.</p>
+                
+                <p><b><u>SEGUNDO OTROSÍ:</u> SÍRVASE SS.,</b> ordenar que se otorgue a costa de la parte que lo solicite
+                    en Secretaría, copias autorizadas de este avenimiento y de su proveído; y hacer devolución
+                    de los documentos fundantes de la demanda a la parte ejecutante.</p>
+            </div>
+            <div class="texto-firmas">  
+                <div class="h1">    
+                    <p>CARO VERA MARCIA ANDREA  </p>                                                                     
+                    <p><u>Firma Cliente</u></p>                                                        
+                    <p>MOBAREC KATUNARIC JUAN PABLO</p>
+                    <p>MOBAREC KATUNARIC JUAN PABLO</p>
+                </div>
+            </div>   
+        </div> 
+    </body>
+</apex:page>

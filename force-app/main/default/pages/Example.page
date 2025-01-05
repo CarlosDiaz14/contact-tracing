@@ -1,0 +1,97 @@
+<apex:page standardController="Avenimiento__c"  renderAs="PDF" cache="true"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />          
+        <style type="text/css"> 
+            @page{ 
+                size:A4 portrait;                  
+                @bottom-right { 
+                    content: "Page " counter(page) " - " counter(pages); 
+                    font-family: 'Arial', 'Helvetica', sans-serif; 
+                    font-size:10px; 
+                } 
+            } 
+        </style> 
+    </head> 
+    <apex:Form > 
+        <div style="text-align:center;"> 
+            <span><b><apex:outputText value="Welcome To Account"  style="font-size:21px;"/></b></span> 
+        </div> 
+        <p style="height: 80px;"></p> 
+        <table border="0" cellpadding="4" cellspacing="0" width="100%" style="border: 0;width: 100%;"> 
+            <colgroup> 
+                <col/> 
+                <col style="width: 30%" width="30%" /> 
+                <col/> 
+                <col style="width: 30%" width="30%" /> 
+            </colgroup> 
+            <tbody> 
+                <tr>   
+                    <td style="text-align:center;"> 
+                        <span><apex:outputText value="Transport Name"  style="font-size:19px;"/></span> 
+                    </td> 
+                    <td> 
+                        <p style="border:1px solid #000;padding:8px;margin:0;"><apex:outputText style="font-size:19px;"/></p> 
+                    </td>       
+                    <td style="text-align:center;">  
+                        <span><apex:outputText value="Transport Number"  style="font-size:19px;"/></span>   
+                    </td>  
+                    <td>  
+                        <p style="border:1px solid #000;padding:8px;margin:0;"><apex:outputText style="font-size:19px;"/></p> 
+                    </td>   
+                </tr> 
+                <tr> 
+                    <td style="text-align:center;">  
+                        <span><apex:outputText value="Transport Type"  style="font-size:19px;"/></span>   
+                    </td> 
+                    <td>   
+                        <p style="border:1px solid #000;padding:8px;margin:0;"><apex:outputText style="font-size:19px;"/></p>   
+                    </td> 
+                    <td></td> 
+                    <td></td> 
+                </tr> 
+                <tr> 
+                    <td style="text-align:center;"> 
+                        <span><apex:outputText value="TransportCompony"  style="font-size:19px;"/> </span> 
+                    </td> 
+                    <td>   
+                        <p style="border:1px solid #000;padding:8px;margin:0;height: 80px;"><apex:outputText style="font-size:19px;"/></p> 
+                    </td> 
+                    <td></td> 
+                    <td></td> 
+                </tr> 
+                <tr> 
+                    <td> 
+                        <p style="height: 80px;"> &nbsp; </p> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td style="text-align:center;">   
+                        <span><apex:outputText value="Owner Name"  style="font-size:19px;"/></span>   
+                    </td> 
+                    <td>   
+                        <p style="border:1px solid #000;padding:8px;margin:0;"><apex:outputText style="font-size:19px;"/></p> 
+                    </td> 
+                    <td style="text-align:center;">     
+                        <span><apex:outputText value="Purchase Date"  style="font-size:19px;"/> </span>  
+                    </td> 
+                    <td>    
+                        <p style="border:1px solid #000;padding:8px;margin:0;"><apex:outputText style="font-size:19px;"/></p>  
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td> 
+                        <p style="height: 80px"> &nbsp; </p> 
+                    </td> 
+                </tr> 
+                <tr> 
+                    <td style="text-align:center;">  
+                        <span><apex:outputText value="Maintainence Cost"  style="font-size:19px;"/> </span> 
+                    </td> 
+                    <td colspan="3">  
+                        <p style="border-bottom:1px solid #000;padding:8px;margin:0;width:50%"><apex:outputText style="font-size:19px;"/></p> 
+                    </td> 
+                </tr> 
+            </tbody> 
+        </table> 
+    </apex:Form> 
+</apex:page>
